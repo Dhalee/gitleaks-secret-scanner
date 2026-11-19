@@ -10,7 +10,7 @@ path = '''(^|/)config\.py$'''
 regex = '''(?m)^AWS_ACCESS_KEY_ID\s*=\s*"(AKIAIOSFODNN7EXAMPLE)"'''
 secretGroup = 1
 [[rules]]
-id = "nova-fictional-key"
-description = "Fictional NOVA service key"
+id = "classroom-demo-code"
+description = "Classroom demo code"
 path = '''(^|/)config\.py$'''
-regex = '''\bNOVA-KEY-[0-9]{6}\b'''
+regex = '''\bLAB-DEMO-[0-9]{6}\b'''
